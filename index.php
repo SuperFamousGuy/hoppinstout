@@ -1,11 +1,10 @@
-<head>
+<body>
 <?php 
-  //brief config
+  // a brief config use this to
+  // define the path to your WordPress installation
   define('INSTALL_ROOT', '/wp-content/themes/hoppinstout');
-  //bring in header
+
+  // bring in header.php
   get_header();
 ?>
-</head>
-
-<body>
 </body>
