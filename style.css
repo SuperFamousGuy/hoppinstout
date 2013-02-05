@@ -1,0 +1,21 @@
+/*
+Theme Name: Hoppin Stout
+Theme URI: http://hoppinstout.org/
+Description: The theme created for the hoppinstout.org blog.
+Author: hoppinstoutorg
+Author URI: http://hoppinstout.org/
+Version: 1.0
+Tags: chocolate, brown, gold 
+
+License:
+License URI:
+
+Currently under development
+*/
+
+body {
+   background-color:rgb(161,107,69);
+} 
+
+img.logo {
+}
