@@ -1,10 +1,9 @@
-<head>
-<meta name="description" content="It's all about the beer in here." />
-<meta name="keywords" content="hoppin, stout, beer, brew, crew, review, preview" />
-<meta name="author" content="Karl Kell" />
-<meta name="charset" content="UTF-8" />
-</head>
-
-<body>
-<?php echo "<img class='logo' src='".INSTALL_ROOT."/img/logo.png' width='80px' />" ?> 
-</body>
+<div class="header">
+<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" /> 
+<?php wp_nav_menu(array(
+           'menu'           =>'Navigation',
+           'sort_column'    =>'menu_order',
+           'menu_class'     =>'navigation',
+           'theme_location' =>'header'));
+?>
+</div>
