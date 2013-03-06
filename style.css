@@ -94,7 +94,13 @@ div.navigation ul li {
 }
 
 div.navigation ul li a:link {
+   display        :block;
    text-decoration:none;
-   font-family:"lucidia console","monaco","courier new",monospace;
-   font-style:oblique;
+   font-family    :"lucidia console","monaco","courier new",monospace;
+   color          :#A16B45;
 }
+
+div.navigation ul li a:hover {
+   font-style:oblique;
+   background-color:#E8D14F;
+}   
