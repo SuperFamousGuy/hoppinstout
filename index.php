@@ -7,8 +7,20 @@
 </head>
 
 <body>
-<div class="backgroundL"></div>
-<div class="backgroundT"></div>
 <?php get_header(); ?> 
-<div class="action-area"></div>
+<div class="loop">
+<?php if(have_posts()) {
+    while(have_posts()) {
+        the_post();
+        echo '<div class="post">';
+        the_title('<h2 class="post_head">','</h2>');
+        the_post_thumbnail();
+        the_content();
+        echo '</div>';
+    }
+}
+else {
+    echo '<p>Sorry, no posts to list</p>';
+} ?>
+</div>
 </body>
