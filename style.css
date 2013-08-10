@@ -56,8 +56,7 @@ div.navigation {
 
 div.navigation ul {
    position        :relative;
-   padding         :10px;
-   margin          :10px;
+   padding         :5px 0 0 5px;
    background-color:#A16B45;
 }
 
@@ -65,15 +64,11 @@ div.navigation ul li {
    display         :block;
    float           :left;
    width           :90%;
+   margin          :0 0 8px 0;
    list-style-type :none; 
    text-align      :center;
    border          :1px solid;
-   background-color:#FADE71;
-   white-space     :normal
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-   box-shadow: 4px 8px 20px #333332;
+   white-space     :normal;
 }
 
 div.navigation ul li a:link {
@@ -82,6 +77,11 @@ div.navigation ul li a:link {
    font-family    :"lucidia console","monaco","courier new",monospace;
    font-size      :100%;
    color          :#A16B45;
+   background-color:#FADE71;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   box-shadow: 4px 8px 20px #333332;
 }
 
 div.navigation ul li a:hover {
@@ -90,14 +90,16 @@ div.navigation ul li a:hover {
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    border-radius: 5px;
+   box-shadow: 4px 8px 20px #333332;
 }   
 
 div.loop {
    position:fixed;
    width   :70%;
-   height:100%;
+   height:92%;
    top:8%;
    left    :20%;
+   overflow: auto;
    -webkit-border-radius: 6px;
    -moz-border-radius: 6px;
    border-radius: 6px;
@@ -106,11 +108,12 @@ div.loop {
 
 div.post {
    position:relative;
-   border:2px solid;
+   border:1px solid;
    top:2.5%;
    left:5%;
    width:90%;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
+   box-shadow: 0px 10px 20px #333332;
 }
