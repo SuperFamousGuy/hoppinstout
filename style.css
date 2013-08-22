@@ -74,7 +74,7 @@ div.navigation ul li {
 div.navigation ul li a:link {
    display        :block;
    text-decoration:none;
-   font-family    :"lucidia console","monaco","courier new",monospace;
+   font-family: 'Kite One';
    font-size      :100%;
    color          :#A16B45;
    background-color:#FADE71;
@@ -86,6 +86,7 @@ div.navigation ul li a:link {
 
 div.navigation ul li a:hover {
    font-style:oblique;
+   font-family: 'Kite One';
    background-color:#E8D14F;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
@@ -116,4 +117,23 @@ div.post {
    -moz-border-radius: 10px;
    border-radius: 10px;
    box-shadow: 0px 10px 20px #333332;
+}
+
+div.post img {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 20px #333332;
+}
+
+div.post h2 {
+   text-align: center;
+   font-family: 'Ewert';
+   font-size: 32px;
+   color: #3B2612;
+}
+
+div.post p {
+   font-family: 'Kite One';
+   color: #332211;
 }

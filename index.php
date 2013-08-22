@@ -3,6 +3,7 @@
 <meta name="keywords" content="hoppin, stout, beer, brew, crew, review, preview">
 <meta name="author" content="Karl Kell">
 <meta charset="UTF-8">
+<link href='http://fonts.googleapis.com/css?family=Kite+One|Ewert' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 <script type="text/javascript">var home_url = "<?php echo home_url()?>";</script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/navigation.controller.js"></script>
