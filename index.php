@@ -1,6 +1,6 @@
 <head>
 <meta name="description" content="It's all about the beer in here.">
-<meta name="keywords" content="hoppin, stout, beer, brew, crew, review, preview">
+<meta name="keywords" content="hoppinstout,ipa,hops,stout,beer,brew,crew,review,preview">
 <meta name="author" content="Karl Kell">
 <meta charset="UTF-8">
 <title>Hoppinstout | Beer Review</title>
